@@ -1,6 +1,6 @@
 # Base Application with TypeScript
 
-## com.sky.lightningbase
+This base project is to use Typescript with Lightning or, at least to create the base for create your application.
 
 ### Getting started
 
@@ -10,6 +10,19 @@
 ```
 npm install -g WebPlatformForEmbedded/Lightning-CLI
 ```
+
+#### NPM scripts
+
+There are several NPM scripts that will help you running the app.
+
+`npm run test`: run the test on mocha
+`npm run watch`: compile typescript and run in watch mode everything
+
+More to come!
+
+#### Testing
+
+On the directory test you can put your test ;)
 
 #### Running the App
 
