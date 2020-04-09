@@ -1,4 +1,5 @@
 // Working in progress, don't blame me!
+/*
 import { Lightning, Utils } from 'wpe-lightning-sdk'
 
 export default class App extends Lightning.Component {
@@ -51,3 +52,4 @@ export default class App extends Lightning.Component {
       .start()
   }
 }
+*/
