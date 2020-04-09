@@ -1,0 +1,53 @@
+{
+  "name": "com.sky.lightningbase",
+  "description": "Base Application with TypeScript",
+  "dependencies": {
+    "wpe-lightning-sdk": "WebPlatformForEmbedded/Lightning-SDK"
+  },
+  "scripts": {
+    "watch": "tsc-watch --onSuccess \"lng watch\"",
+    "test": "mocha -r esm -r jsdom-global/register --require babel-core/register ./test/**/*.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.ts": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-env": "1.6.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.1.0",
+    "jsdom": "16.2.2",
+    "jsdom-global": "3.0.2",
+    "lint-staged": "^9.4.3",
+    "mocha": "^7.1.1",
+    "prettier": "^1.19.1",
+    "ts-node": "^7.0.1",
+    "tsc-watch": "^4.2.3",
+    "tslint": "5.14.0",
+    "tslint-config-prettier": "1.5.0",
+    "typescript": "^3.7.5"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}

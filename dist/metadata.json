@@ -1,0 +1,6 @@
+{
+  "name": "Base Application with TypeScript",
+  "identifier": "com.sky.lightningbase",
+  "version": "1.0.0",
+  "icon": "./static/icon.png"
+}
