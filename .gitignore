@@ -1,4 +1,8 @@
+# Standard files
 **/.DS_Store
 **/Thumbs.db
+# Never upload this!
+package-lock.json
 node_modules
+# Generated everytime the app runs
 dist

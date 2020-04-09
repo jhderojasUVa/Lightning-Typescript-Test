@@ -1,0 +1,11 @@
+{
+    "plugins": [
+    ],
+    "rules": {
+        "no-unused-expressions": 0
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
+  }
