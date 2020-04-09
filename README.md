@@ -15,8 +15,8 @@ npm install -g WebPlatformForEmbedded/Lightning-CLI
 
 There are several NPM scripts that will help you running the app.
 
-`npm run test`: run the test on mocha
-`npm run watch`: compile typescript and run in watch mode everything
+```npm run test```: run the test on mocha
+```npm run watch```: compile typescript and run in watch mode everything
 
 More to come!
 
