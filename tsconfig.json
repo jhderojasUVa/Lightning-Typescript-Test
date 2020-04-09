@@ -3,7 +3,15 @@
         "outDir": "./dist",
         "allowJs": true,
         "target": "es6",
+        "baseUrl": ".",
+        "paths": {
+            "wpe-lightning-sdk": [
+                "node_modules/wpe-lightning/src/lightning.mjs"
+            ]
+        },
         "types": [
+        ],
+        "typeRoots": [
             "wpe-lightning-sdk"
         ]
     },

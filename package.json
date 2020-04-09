@@ -6,7 +6,9 @@
   },
   "scripts": {
     "watch": "tsc-watch --onSuccess \"lng watch\"",
-    "test": "mocha -r esm -r jsdom-global/register --require babel-core/register ./test/**/*.js"
+    "watch:js": "lng watch",
+    "test": "mocha -r esm -r jsdom-global/register --require babel-core/register ./test/**/*.js",
+    "test:cypress": "$(npm bin)/cypress open"
   },
   "lint-staged": {
     "*.js": [
@@ -30,6 +32,7 @@
     "babel-preset-env": "1.6.0",
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
+    "cypress": "^4.3.0",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.1",
