@@ -43,7 +43,7 @@
     "jsdom": "16.2.2",
     "jsdom-global": "3.0.2",
     "lint-staged": "^9.4.3",
-    "mocha": "^7.1.1",
+    "mocha": "^10.2.0",
     "prettier": "^1.19.1",
     "ts-node": "^7.0.1",
     "tsc-watch": "^4.2.3",
